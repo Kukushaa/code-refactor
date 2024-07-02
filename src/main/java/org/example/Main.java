@@ -3,6 +3,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         int finalAns = countNumber(50, 0);
+        System.out.println(finalAns);
     }
 
     public static int countNumber(int size, int index) {
